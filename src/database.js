@@ -12,10 +12,10 @@ let connection;
 export const db = {
     connect : () => {
         connection = mysql.createConnection({
-            host:'localhost',
-            port:3306,
+            host:'34.100.139.251',
+            // port:3306,
             user:'hapi-server',
-            password:'CreativeSoftware',
+            password:'Bandulasena@2023',//CreativeSoftware
             database : 'listy'
         });
         connection.connect();
